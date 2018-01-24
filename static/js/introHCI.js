@@ -22,9 +22,5 @@ function initializePage() {
 function projectClick(e) {
 	e.preventDefault();
 	$(this).css("background-color", "#7fff00")
-	    $("project2").click(function(){
-        $("images/lorempixel.people.1.jpeg").fadeOut();
-    });
-
 }
 }
