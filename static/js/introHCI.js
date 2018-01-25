@@ -22,5 +22,8 @@ function initializePage() {
 function projectClick(e) {
 	e.preventDefault();
 	$(this).css("background-color", "#7fff00")
+	$(".project").fadeOut();
+	$(".project").fadeIn();
 }
 }
+
